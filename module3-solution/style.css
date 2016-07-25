@@ -1,0 +1,107 @@
+#header-nav {
+	background-color: #a6a6a6;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+ #nav-list{
+    margin-top: 10px;
+}
+
+#collapsable-nav{
+   	text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px
+	solid: #000000;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+
+button.navbar-toggle, .navbar-header {
+	margin-top: -5px;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+    margin: 1em 0;
+    padding: 0; 
+   }
+
+a>h1 {
+	color: #ffffff;
+}
+
+div>p{
+	color: #a6a6a6;
+}
+
+#stuff{
+	background-color: #660066;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	width: 90%
+}
+
+#chicken {
+    color: #3366cc;
+    padding-top: 2%;
+}
+
+#title{
+	margin-bottom: 6%;
+	color: #3366cc
+}
+
+@media screen and (max-width: 768px ){
+#collapsable-nav{
+	background-color: #c2d1ef;
+}
+}
+
+@media screen and (min-width: 769px){
+#header-nav {
+	height: 80px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
